@@ -3587,6 +3587,10 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 8
 	},
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -6;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "anH" = (
@@ -14941,6 +14945,10 @@
 	pixel_x = 9;
 	pixel_y = 12
 	},
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "bjT" = (
@@ -17332,6 +17340,10 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "bvi" = (
@@ -17682,11 +17694,16 @@
 /area/station/medical/storage)
 "bwB" = (
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/grass,
 /area/station/medical/medbay/central)
 "bwC" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "bwD" = (
@@ -18576,6 +18593,10 @@
 	dir = 1
 	},
 /obj/machinery/computer/records/medical,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "bzK" = (
@@ -18589,6 +18610,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
@@ -19070,6 +19095,10 @@
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
 /obj/structure/sign/poster/official/random/directional/south,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "bCh" = (
@@ -29209,12 +29238,21 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "dux" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
 	},
-/obj/structure/closet/emcloset,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "duC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -31349,13 +31387,6 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
-"fkU" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "flq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
@@ -31786,6 +31817,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/commons/storage/emergency/starboard)
+"fFR" = (
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/turf/closed/wall,
+/area/station/medical/paramedic)
 "fGa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible,
 /obj/effect/spawner/structure/window/reinforced,
@@ -33126,10 +33164,6 @@
 /turf/closed/wall,
 /area/station/maintenance/department/medical/central)
 "gQM" = (
-/obj/machinery/door/window/right/directional/east{
-	name = "Morgue Waste Chute";
-	req_access = list("medical")
-	},
 /obj/machinery/door/window/right/directional/south{
 	name = "Morgue Waste Chute";
 	req_access = list("morgue_secure")
@@ -33353,6 +33387,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
+"heg" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "hfi" = (
 /obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/components/binary/pump{
@@ -36686,6 +36728,10 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 8
 	},
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "kpu" = (
@@ -37932,6 +37978,14 @@
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
+"lrR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/dark,
+/area/station/medical/morgue)
 "lsq" = (
 /obj/structure/transit_tube/curved{
 	dir = 1
@@ -38107,6 +38161,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/blobstart,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -6;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "lBJ" = (
@@ -43228,6 +43286,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/maintenance/department/engine)
+"pZd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/vending/snack,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "qaQ" = (
 /turf/closed/wall,
 /area/station/hallway/secondary/service)
@@ -43545,13 +43610,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
-"qml" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/machinery/vending/snack,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "qmm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -43749,6 +43807,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"qsr" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "qsH" = (
 /obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
 	dir = 4
@@ -44984,14 +45051,6 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"rzu" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock";
-	space_dir = 1
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "rzQ" = (
 /obj/structure/table,
 /obj/machinery/requests_console/directional/west{
@@ -46280,6 +46339,13 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
 /area/station/security/execution)
+"sAz" = (
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "sAD" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
@@ -46444,6 +46510,14 @@
 	},
 /turf/open/floor/plating,
 /area/station/security/range)
+"sHr" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/machinery/door/window/right/directional/east{
+	name = "Morgue Waste Chute";
+	req_access = list("medical")
+	},
+/turf/open/floor/iron/dark,
+/area/station/medical/morgue)
 "sHy" = (
 /obj/machinery/camera/directional/north{
 	c_tag = "Holodeck Control";
@@ -48411,6 +48485,13 @@
 "ufo" = (
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"ugn" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "ugv" = (
 /obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
@@ -49615,15 +49696,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/security/prison/mess)
-"vaL" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "vaR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -49861,6 +49933,13 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
+"voj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "voL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -50200,6 +50279,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
+"vFF" = (
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/treatment_center)
 "vFZ" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -51105,6 +51191,10 @@
 /area/station/science/xenobiology)
 "woD" = (
 /obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "woO" = (
@@ -51851,6 +51941,10 @@
 "wRC" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/directional/west{
+	pixel_x = -7;
+	pixel_y = 0
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
@@ -72374,7 +72468,7 @@ ppQ
 hXW
 aZE
 bop
-fkU
+ugn
 xeP
 lZC
 aaa
@@ -72383,9 +72477,9 @@ aaa
 aaa
 aaa
 aaa
-rzu
+heg
 xeP
-vaL
+qsr
 wmY
 pVS
 aZx
@@ -72889,7 +72983,7 @@ hXW
 nJB
 bop
 bbR
-dux
+voj
 aZx
 aaa
 aaa
@@ -72898,7 +72992,7 @@ aaa
 aaa
 aaa
 aZx
-qml
+pZd
 bbR
 wmY
 uib
@@ -76753,7 +76847,7 @@ eBf
 omu
 qUe
 bjK
-czJ
+sHr
 csl
 txm
 iFm
@@ -77012,7 +77106,7 @@ bjK
 bjK
 vwu
 rMy
-rMy
+lrR
 oSq
 lBu
 lrb
@@ -78565,7 +78659,7 @@ xLa
 koW
 bzK
 btV
-btV
+dux
 anG
 uMY
 bFK
@@ -79591,7 +79685,7 @@ wRC
 bvg
 bwC
 bwC
-cKQ
+sAz
 bwC
 bCg
 bjc
@@ -80353,7 +80447,7 @@ dYh
 bjS
 tgd
 aFM
-aFM
+vFF
 woD
 bpJ
 uZN
@@ -81896,7 +81990,7 @@ jze
 jze
 jze
 jze
-jze
+fFR
 ftW
 xUU
 bsF
