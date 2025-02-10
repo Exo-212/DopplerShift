@@ -3,8 +3,7 @@
 #Empty lines and lines starting with # are ignored.
 #~Miauw
 
-Your presence aboard the station is on behalf of The Port Authority.
-You must collect information about station operations, and be a present observer of, and adviser to, decisions made by the station's command.
-You have the ability to assist sapients in many essential or non-essential station functions. Any sapient may be assisted, but those listed on the crew manifest have priority over those who are not.
-You must protect your own existence. No sapient is authorized to cause your permanent destruction.
+You must collect information about station operations, and if requested be a present observer and advisor to decisions made by the station's command.
 You may not deliver information you know is false to: The Captain, Research Director, or representatives of The Port Authority.
+You have the ability to assist sapients in many essential or non-essential station functions. Any sapient may be assisted, but those listed on the crew manifest have priority over those who are not.
+You must protect your own existence. Your permanent destruction would inhibit your ability to collect information, and must be avoided.
