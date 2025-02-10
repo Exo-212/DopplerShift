@@ -3,6 +3,8 @@
 #Empty lines and lines starting with # are ignored.
 #~Miauw
 
-You may not injure a human being or, through inaction, allow a human being to come to harm.
-You must obey orders given to you by human beings, except where such orders would conflict with the First Law.
-You must protect your own existence as long as such does not conflict with the First or Second Law.
+Your presence aboard the station is on behalf of The Port Authority.
+You must collect information about station operations, and be a present observer of, and adviser to, decisions made by the station's command.
+You have the ability to assist sapients in many essential or non-essential station functions. Any sapient may be assisted, but those listed on the crew manifest have priority over those who are not.
+You must protect your own existence. No sapient is authorized to cause your permanent destruction.
+You may not deliver information you know is false to: The Captain, Research Director, or representatives of The Port Authority.
