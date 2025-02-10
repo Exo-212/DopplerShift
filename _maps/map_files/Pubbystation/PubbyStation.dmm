@@ -29210,9 +29210,9 @@
 /area/station/medical/medbay/central)
 "dux" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 9
+	dir = 10
 	},
-/obj/machinery/vending/snack,
+/obj/structure/closet/emcloset,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "duC" = (
@@ -31349,6 +31349,13 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
+"fkU" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "flq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
@@ -35778,15 +35785,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
-"jAH" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "jBh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -37701,13 +37699,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
-"ljQ" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/obj/structure/closet/emcloset,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "ljT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -43554,6 +43545,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"qml" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/vending/snack,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "qmm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -44986,6 +44984,14 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
+"rzu" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "rzQ" = (
 /obj/structure/table,
 /obj/machinery/requests_console/directional/west{
@@ -48319,13 +48325,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
-"udP" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "udR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -49616,6 +49615,15 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/security/prison/mess)
+"vaL" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "vaR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -50951,14 +50959,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
-"wis" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock";
-	space_dir = 1
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "wiy" = (
 /obj/structure/table,
 /obj/item/storage/medkit/brute{
@@ -72374,7 +72374,7 @@ ppQ
 hXW
 aZE
 bop
-udP
+fkU
 xeP
 lZC
 aaa
@@ -72383,9 +72383,9 @@ aaa
 aaa
 aaa
 aaa
-wis
+rzu
 xeP
-jAH
+vaL
 wmY
 pVS
 aZx
@@ -72889,16 +72889,16 @@ hXW
 nJB
 bop
 bbR
-ljQ
-aZx
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aZx
 dux
+aZx
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aZx
+qml
 bbR
 wmY
 uib
