@@ -13486,10 +13486,7 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "bcY" = (
-/obj/structure/closet/emcloset,
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "bcZ" = (
@@ -14331,7 +14328,7 @@
 	dwidth = 3;
 	height = 13;
 	name = "pubby arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/pubby;
+	roundstart_template = /datum/map_template/shuttle/arrival/nebula;
 	shuttle_id = "arrival_stationary";
 	width = 6
 	},
@@ -15214,9 +15211,8 @@
 /turf/open/floor/plating,
 /area/station/science/xenobiology)
 "bkQ" = (
-/obj/machinery/vending/snack,
 /obj/effect/turf_decal/stripes/line{
-	dir = 9
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
@@ -29213,11 +29209,11 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "dux" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
 	},
-/turf/open/floor/plating,
+/obj/machinery/vending/snack,
+/turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "duC" = (
 /obj/structure/disposalpipe/segment{
@@ -35782,6 +35778,15 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
+"jAH" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "jBh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -37696,6 +37701,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
+"ljQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "ljT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -48307,6 +48319,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
+"udP" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "udR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -50932,6 +50951,14 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
+"wis" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "wiy" = (
 /obj/structure/table,
 /obj/item/storage/medkit/brute{
@@ -72091,16 +72118,16 @@ hXW
 bMo
 bop
 aZx
+aZx
+aZx
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+aZx
+aZx
 aZx
 bop
 bon
@@ -72347,18 +72374,18 @@ ppQ
 hXW
 aZE
 bop
-aZx
-aZx
-aZx
+udP
+xeP
+lZC
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-aZx
-aZx
-aZx
+wis
+xeP
+jAH
 wmY
 pVS
 aZx
@@ -72604,19 +72631,19 @@ aie
 hXW
 nJB
 vvo
-dux
-xeP
-lZC
+hXW
+hXW
+aZx
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-bbQ
-xeP
-bdV
-wmY
+aZx
+hXW
+hXW
+ntG
 bon
 aZx
 aaa
@@ -72861,8 +72888,8 @@ duQ
 hXW
 nJB
 bop
-hXW
-hXW
+bbR
+ljQ
 aZx
 aaa
 aaa
@@ -72871,9 +72898,9 @@ aaa
 aaa
 aaa
 aZx
-hXW
-hXW
-ntG
+dux
+bbR
+wmY
 uib
 aZx
 aaa
@@ -73118,18 +73145,18 @@ ppQ
 hXW
 qJm
 bop
-bbR
+bop
 bcY
-aZx
+hXW
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-aZx
+hXW
 bkQ
-bbR
+bop
 wmY
 bon
 aZx
