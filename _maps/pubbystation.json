@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"map_name": "Pubby Station",
-	"map_path": "map_files/pubbystation",
+	"map_path": "map_files/Pubbystation",
 	"map_file": "pubbystation.dmm",
 	"shuttles": {
 		"emergency": "emergency_delta",
