@@ -9448,10 +9448,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan,
 /turf/open/space/basic,
 /area/space/nearstation)
-"aKp" = (
-/obj/structure/sign/warning/explosives/alt/directional/north,
-/turf/open/space/basic,
-/area/space)
 "aKq" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -97093,7 +97089,7 @@ bIN
 dAF
 gWo
 hzn
-aKp
+aaa
 aaa
 aht
 aaa
