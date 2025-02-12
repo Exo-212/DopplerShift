@@ -368,12 +368,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/ai_monitored/turret_protected/ai)
-"acl" = (
-/obj/structure/transit_tube/horizontal,
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/space/nearstation)
 "acm" = (
 /obj/machinery/camera/motion/directional/east{
 	c_tag = "MiniSat External Port";
@@ -2128,26 +2122,18 @@
 /area/station/ai_monitored/security/armory)
 "aiO" = (
 /obj/structure/rack,
-/obj/item/storage/box/rubbershot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/box/rubbershot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/box/rubbershot,
-/obj/item/storage/box/rubbershot,
-/obj/item/storage/box/rubbershot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/storage/box/rubbershot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
 /obj/structure/sign/warning/no_smoking/directional/east,
 /obj/machinery/light/directional/east,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot{
+	pixel_x = 0;
+	pixel_y = -6
+	},
+/obj/item/storage/box/lethalshot{
+	pixel_x = 0;
+	pixel_y = -6
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "aiR" = (
@@ -2226,41 +2212,18 @@
 /area/station/security/brig)
 "ajg" = (
 /obj/structure/rack,
-/obj/item/gun/energy/e_gun{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/gun/energy/e_gun,
-/obj/item/gun/energy/e_gun{
-	pixel_x = 3;
-	pixel_y = -3
-	},
+/obj/effect/spawner/random/armory/e_gun,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajh" = (
-/obj/structure/rack,
-/obj/item/clothing/suit/armor/bulletproof{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/clothing/suit/armor/bulletproof,
-/obj/item/clothing/suit/armor/bulletproof{
-	pixel_x = 3;
-	pixel_y = -3
+/obj/structure/closet/secure_closet/armory2{
+	anchored = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajj" = (
 /obj/structure/rack,
-/obj/item/gun/energy/laser{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/gun/energy/laser,
-/obj/item/gun/energy/laser{
-	pixel_x = 3;
-	pixel_y = -3
-	},
+/obj/effect/spawner/random/armory/laser_gun,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajk" = (
@@ -2454,16 +2417,8 @@
 /area/station/security/evidence)
 "ajP" = (
 /obj/structure/rack,
-/obj/item/gun/energy/disabler{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/gun/energy/disabler,
-/obj/item/gun/energy/disabler{
-	pixel_x = 3;
-	pixel_y = -3
-	},
 /obj/machinery/newscaster/directional/west,
+/obj/effect/spawner/random/armory/disablers,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajQ" = (
@@ -2474,9 +2429,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "ajR" = (
-/obj/structure/rack,
-/obj/item/gun/energy/e_gun/dragnet,
-/obj/item/gun/energy/e_gun/dragnet,
+/obj/structure/closet/secure_closet/armory3{
+	anchored = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajS" = (
@@ -2488,16 +2443,8 @@
 /area/station/cargo/miningfoundry)
 "ajT" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/riot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/gun/ballistic/shotgun/riot,
-/obj/item/gun/ballistic/shotgun/riot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
 /obj/item/radio/intercom/directional/east,
+/obj/effect/spawner/random/armory/shotgun,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajW" = (
@@ -2785,9 +2732,11 @@
 /turf/open/floor/iron,
 /area/station/security/evidence)
 "akL" = (
-/obj/machinery/flasher/portable,
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
+/obj/structure/closet/l3closet/security{
+	anchored = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "akM" = (
@@ -4244,12 +4193,6 @@
 "apX" = (
 /turf/closed/wall,
 /area/station/commons/dorms)
-"aqa" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
-/obj/machinery/portable_atmospherics/pump/lil_pump,
-/turf/open/floor/iron/dark,
-/area/station/science/ordnance)
 "aqd" = (
 /obj/machinery/power/solar/deployable,
 /obj/structure/cable,
@@ -6945,6 +6888,12 @@
 /obj/structure/cable,
 /turf/open/space,
 /area/station/solars/port)
+"azK" = (
+/obj/structure/closet/l3closet/security{
+	anchored = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
 "azN" = (
 /obj/effect/turf_decal/box/white{
 	color = "#52B4E9"
@@ -9483,13 +9432,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan,
 /turf/open/space/basic,
 /area/space/nearstation)
-"aKp" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/window/reinforced/unanchored/spawner/directional/west,
-/turf/open/floor/iron,
-/area/station/cargo/sorting)
 "aKq" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -10254,6 +10196,10 @@
 /obj/structure/sign/departments/evac,
 /turf/closed/wall,
 /area/station/hallway/secondary/exit/departure_lounge)
+"aOt" = (
+/obj/structure/cable,
+/turf/closed/wall,
+/area/station/maintenance/department/security/brig)
 "aOu" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/camera/directional/south{
@@ -12543,6 +12489,16 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/space/basic,
 /area/space/nearstation)
+"aYF" = (
+/obj/machinery/door/airlock/external{
+	name = "Arrival Airlock";
+	space_dir = 2
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "aYI" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -14872,6 +14828,11 @@
 "bjc" = (
 /turf/closed/wall,
 /area/station/medical/medbay/central)
+"bje" = (
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "bjg" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
@@ -17261,11 +17222,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "buu" = (
-/obj/structure/transit_tube/crossing/horizontal,
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/space/nearstation)
+/obj/structure/window/reinforced/unanchored/spawner/directional/west,
+/turf/open/floor/iron,
+/area/station/cargo/sorting)
 "buv" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/research{
@@ -19838,6 +19797,12 @@
 /obj/item/chair,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
+"bFE" = (
+/obj/structure/transit_tube/crossing/horizontal,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "bFF" = (
 /obj/machinery/atmospherics/components/tank/air{
 	dir = 1
@@ -27775,6 +27740,11 @@
 /obj/item/flashlight/lantern,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
+"cwR" = (
+/obj/vehicle/ridden/secway,
+/obj/item/key/security,
+/turf/open/floor/plastic,
+/area/station/security/lockers)
 "cwS" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
@@ -29207,6 +29177,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "dsP" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /obj/structure/window/reinforced/unanchored/spawner/directional/west,
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
@@ -34792,9 +34765,11 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "iAA" = (
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/station/ai_monitored/turret_protected/aisat_interior)
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/closed/wall,
+/area/station/hallway/secondary/entry)
 "iAC" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
@@ -43239,8 +43214,10 @@
 /obj/machinery/camera/directional/north{
 	c_tag = "Armory Motion Sensor"
 	},
-/obj/vehicle/ridden/secway,
 /obj/machinery/airalarm/directional/north,
+/obj/structure/closet/secure_closet/tac{
+	anchored = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "pWK" = (
@@ -45007,11 +44984,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "rvS" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/closed/wall,
-/area/station/hallway/secondary/entry)
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/turret_protected/aisat_interior)
 "rxa" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
@@ -45484,18 +45459,27 @@
 /turf/open/floor/grass,
 /area/station/medical/treatment_center)
 "rOV" = (
-/obj/item/grenade/barrier{
-	pixel_x = 4
-	},
-/obj/item/grenade/barrier,
-/obj/item/grenade/barrier{
-	pixel_x = -4
-	},
 /obj/structure/table,
 /obj/machinery/button/door/directional/east{
 	id = "armory";
 	name = "Armory Shutters";
 	req_access = list("armory")
+	},
+/obj/item/grenade/primer/stingbang{
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/obj/item/grenade/primer/stingbang{
+	pixel_x = 10;
+	pixel_y = 12
+	},
+/obj/item/grenade/primer/stingbang{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/grenade/primer/stingbang{
+	pixel_x = 10;
+	pixel_y = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
@@ -46170,15 +46154,12 @@
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
 "sut" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock";
-	space_dir = 2
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
+/obj/structure/rack,
+/obj/effect/spawner/random/armory/riot_armor,
+/obj/effect/spawner/random/armory/riot_helmet,
+/obj/effect/spawner/random/armory/riot_shield,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
 "suz" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -47035,7 +47016,7 @@
 /area/station/medical/morgue)
 "tck" = (
 /obj/structure/table,
-/obj/item/key/security,
+/obj/effect/spawner/random/armory/dragnet,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "tcm" = (
@@ -48086,9 +48067,11 @@
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "tOY" = (
-/obj/structure/cable,
-/turf/closed/wall,
-/area/station/maintenance/department/security/brig)
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/obj/machinery/portable_atmospherics/pump/lil_pump,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance)
 "tPm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -48494,6 +48477,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/tcommsat/computer)
+"ugM" = (
+/obj/structure/transit_tube/horizontal,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "uhd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -51312,11 +51301,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
-"wvp" = (
-/obj/structure/lattice,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/space/nearstation)
 "wvq" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -51517,33 +51501,8 @@
 /area/station/command/heads_quarters/qm)
 "wEc" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/armor/riot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/suit/armor/riot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/clothing/head/helmet/toggleable/riot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/clothing/head/helmet/toggleable/riot,
-/obj/item/clothing/head/helmet/toggleable/riot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/shield/riot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/shield/riot,
-/obj/item/shield/riot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
+/obj/effect/spawner/random/armory/bulletproof_armor,
+/obj/effect/spawner/random/armory/bulletproof_helmet,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "wEl" = (
@@ -72710,7 +72669,7 @@ nJB
 vvo
 dux
 xeP
-sut
+aYF
 aaa
 aaa
 aaa
@@ -72965,7 +72924,7 @@ duQ
 hXW
 nJB
 bop
-rvS
+iAA
 hXW
 aZx
 aaa
@@ -75263,7 +75222,7 @@ aiu
 aiu
 aiu
 aiu
-tOY
+aOt
 aiu
 aiu
 aiu
@@ -76263,7 +76222,7 @@ aiL
 ajg
 ajP
 akL
-afH
+azK
 amh
 amV
 usu
@@ -76772,7 +76731,7 @@ abI
 ahL
 pWo
 akM
-akM
+sut
 wEc
 ajh
 ajR
@@ -78569,7 +78528,7 @@ aaa
 aKw
 ahd
 aeB
-aiq
+cwR
 aiq
 oWx
 kTl
@@ -82693,7 +82652,7 @@ aaa
 aaa
 aaa
 aaa
-wvp
+bje
 apS
 ala
 arF
@@ -82949,7 +82908,7 @@ aaa
 aaa
 aaa
 aaa
-wvp
+bje
 apo
 abI
 arA
@@ -83463,7 +83422,7 @@ aaa
 aaa
 aaa
 anl
-wvp
+bje
 aaa
 aaa
 rjN
@@ -83720,7 +83679,7 @@ aaa
 aaa
 anl
 aaa
-wvp
+bje
 aaa
 aaa
 aqI
@@ -83975,9 +83934,9 @@ aaa
 aaa
 aht
 amA
-wvp
-wvp
-wvp
+bje
+bje
+bje
 aht
 abI
 arA
@@ -84231,7 +84190,7 @@ aaa
 aaa
 aaa
 aht
-buu
+bFE
 aht
 aaa
 aaa
@@ -84488,7 +84447,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aaa
 aaa
@@ -84745,7 +84704,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aaa
 aaa
@@ -85002,7 +84961,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aht
 aht
@@ -85259,7 +85218,7 @@ aaa
 aaa
 aaa
 aht
-buu
+bFE
 aht
 aaa
 aaa
@@ -85516,7 +85475,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aaa
 aaa
@@ -85773,7 +85732,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aaa
 aaa
@@ -86030,7 +85989,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aht
 aht
@@ -86287,7 +86246,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aaa
 aaa
@@ -86544,7 +86503,7 @@ aaa
 aaa
 aaa
 aht
-buu
+bFE
 aht
 aaa
 aaa
@@ -86801,7 +86760,7 @@ aaa
 aaa
 aaa
 aht
-acl
+ugM
 aht
 aaa
 aaa
@@ -87302,7 +87261,7 @@ adX
 aEb
 afA
 fAL
-iAA
+rvS
 ags
 adX
 adX
@@ -87315,7 +87274,7 @@ aht
 aht
 aht
 alO
-wvp
+bje
 aht
 aaa
 aaa
@@ -87571,7 +87530,7 @@ ahs
 ahs
 ahR
 ala
-wvp
+bje
 aaa
 aht
 aaa
@@ -90179,9 +90138,9 @@ sre
 gCo
 aVq
 aWs
+buu
+buu
 dsP
-dsP
-aKp
 akJ
 dyg
 dyg
@@ -96376,7 +96335,7 @@ bzi
 bAF
 dfU
 dfU
-aqa
+tOY
 jxt
 eZE
 bDc
