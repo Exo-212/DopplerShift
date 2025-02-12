@@ -368,6 +368,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/ai_monitored/turret_protected/ai)
+"acl" = (
+/obj/structure/window/reinforced/unanchored/spawner/directional/west,
+/turf/open/floor/iron,
+/area/station/cargo/sorting)
 "acm" = (
 /obj/machinery/camera/motion/directional/east{
 	c_tag = "MiniSat External Port";
@@ -4236,10 +4240,6 @@
 "apX" = (
 /turf/closed/wall,
 /area/station/commons/dorms)
-"aqa" = (
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/station/ai_monitored/turret_protected/aisat_interior)
 "aqd" = (
 /obj/machinery/power/solar/deployable,
 /obj/structure/cable,
@@ -9470,9 +9470,10 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "aKp" = (
-/obj/structure/window/reinforced/unanchored/spawner/directional/west,
-/turf/open/floor/iron,
-/area/station/cargo/sorting)
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "aKq" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -10237,6 +10238,12 @@
 /obj/structure/sign/departments/evac,
 /turf/closed/wall,
 /area/station/hallway/secondary/exit/departure_lounge)
+"aOt" = (
+/obj/structure/transit_tube/crossing/horizontal,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "aOu" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/camera/directional/south{
@@ -10910,8 +10917,9 @@
 /turf/closed/wall,
 /area/station/cargo/office)
 "aRq" = (
-/obj/structure/rack,
-/obj/item/storage/box/lights/mixed,
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "aRs" = (
@@ -11288,15 +11296,8 @@
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/qm)
 "aTp" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/cardboard,
-/obj/item/stack/sheet/cardboard,
-/obj/item/stack/sheet/cardboard,
-/obj/item/stack/sheet/cardboard,
-/obj/item/stack/sheet/cardboard,
-/obj/item/stack/sheet/cardboard,
-/obj/item/stack/sheet/cardboard,
-/turf/open/floor/iron,
+/obj/vehicle/sealed/mecha/ripley/cargo,
+/turf/open/floor/iron/recharge_floor,
 /area/station/cargo/storage)
 "aTr" = (
 /obj/structure/rack,
@@ -12529,11 +12530,6 @@
 "aYE" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/space/basic,
-/area/space/nearstation)
-"aYF" = (
-/obj/structure/lattice,
-/obj/structure/cable,
 /turf/open/space/basic,
 /area/space/nearstation)
 "aYI" = (
@@ -14864,6 +14860,12 @@
 "bjc" = (
 /turf/closed/wall,
 /area/station/medical/medbay/central)
+"bje" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/closed/wall,
+/area/station/hallway/secondary/entry)
 "bjg" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
@@ -17250,10 +17252,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
-"buu" = (
-/obj/structure/cable,
-/turf/closed/wall,
-/area/station/maintenance/department/security/brig)
 "buv" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/research{
@@ -29194,11 +29192,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "dsP" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/closed/wall,
-/area/station/hallway/secondary/entry)
+/obj/structure/transit_tube/horizontal,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "dsR" = (
 /obj/machinery/camera/directional/north{
 	c_tag = "Atmospherics Mixing"
@@ -30289,12 +30287,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
-"erJ" = (
-/obj/structure/transit_tube/horizontal,
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/space/nearstation)
 "erQ" = (
 /obj/structure/reagent_dispensers/wall/virusfood{
 	pixel_y = 28
@@ -45007,12 +44999,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"rvS" = (
-/obj/structure/transit_tube/crossing/horizontal,
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/space/nearstation)
 "rxa" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
@@ -46170,13 +46156,6 @@
 /obj/structure/cable,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
-"sut" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/window/reinforced/unanchored/spawner/directional/west,
-/turf/open/floor/iron,
-/area/station/cargo/sorting)
 "suz" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -47217,11 +47196,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "tgH" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
-/obj/machinery/portable_atmospherics/pump/lil_pump,
-/turf/open/floor/iron/dark,
-/area/station/science/ordnance)
+/obj/structure/cable,
+/turf/closed/wall,
+/area/station/maintenance/department/security/brig)
 "tgT" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron,
@@ -48088,6 +48065,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
+"tOY" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/obj/machinery/portable_atmospherics/pump/lil_pump,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance)
 "tPm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -48251,9 +48234,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "tYu" = (
-/obj/structure/rack,
-/obj/effect/spawner/random/maintenance,
-/obj/item/stack/sheet/cardboard,
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "tYF" = (
@@ -48495,6 +48478,13 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/tcommsat/computer)
+"ugM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/window/reinforced/unanchored/spawner/directional/west,
+/turf/open/floor/iron,
+/area/station/cargo/sorting)
 "uhd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -51313,6 +51303,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
+"wvp" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/turret_protected/aisat_interior)
 "wvq" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -72961,7 +72955,7 @@ duQ
 hXW
 nJB
 bop
-dsP
+bje
 hXW
 aZx
 aaa
@@ -75259,7 +75253,7 @@ aiu
 aiu
 aiu
 aiu
-buu
+tgH
 aiu
 aiu
 aiu
@@ -82689,7 +82683,7 @@ aaa
 aaa
 aaa
 aaa
-aYF
+aKp
 apS
 ala
 arF
@@ -82945,7 +82939,7 @@ aaa
 aaa
 aaa
 aaa
-aYF
+aKp
 apo
 abI
 arA
@@ -83459,7 +83453,7 @@ aaa
 aaa
 aaa
 anl
-aYF
+aKp
 aaa
 aaa
 rjN
@@ -83716,7 +83710,7 @@ aaa
 aaa
 anl
 aaa
-aYF
+aKp
 aaa
 aaa
 aqI
@@ -83971,9 +83965,9 @@ aaa
 aaa
 aht
 amA
-aYF
-aYF
-aYF
+aKp
+aKp
+aKp
 aht
 abI
 arA
@@ -84227,7 +84221,7 @@ aaa
 aaa
 aaa
 aht
-rvS
+aOt
 aht
 aaa
 aaa
@@ -84484,7 +84478,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aaa
 aaa
@@ -84741,7 +84735,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aaa
 aaa
@@ -84998,7 +84992,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aht
 aht
@@ -85255,7 +85249,7 @@ aaa
 aaa
 aaa
 aht
-rvS
+aOt
 aht
 aaa
 aaa
@@ -85512,7 +85506,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aaa
 aaa
@@ -85769,7 +85763,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aaa
 aaa
@@ -86026,7 +86020,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aht
 aht
@@ -86283,7 +86277,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aaa
 aaa
@@ -86540,7 +86534,7 @@ aaa
 aaa
 aaa
 aht
-rvS
+aOt
 aht
 aaa
 aaa
@@ -86797,7 +86791,7 @@ aaa
 aaa
 aaa
 aht
-erJ
+dsP
 aht
 aaa
 aaa
@@ -87298,7 +87292,7 @@ adX
 aEb
 afA
 fAL
-aqa
+wvp
 ags
 adX
 adX
@@ -87311,7 +87305,7 @@ aht
 aht
 aht
 alO
-aYF
+aKp
 aht
 aaa
 aaa
@@ -87567,7 +87561,7 @@ ahs
 ahs
 ahR
 ala
-aYF
+aKp
 aaa
 aht
 aaa
@@ -90175,9 +90169,9 @@ sre
 gCo
 aVq
 aWs
-aKp
-aKp
-sut
+acl
+acl
+ugM
 akJ
 dyg
 dyg
@@ -96372,7 +96366,7 @@ bzi
 bAF
 dfU
 dfU
-tgH
+tOY
 jxt
 eZE
 bDc
