@@ -22733,14 +22733,10 @@
 /turf/open/floor/plating,
 /area/station/engineering/engine_smes)
 "bWz" = (
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/stack/rods/fifty,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
 /obj/machinery/light/directional/east,
 /obj/structure/cable,
 /obj/structure/rack,
-/obj/item/stack/sheet/plasteel/twenty,
+/obj/effect/spawner/random/engineering/material_rare,
 /turf/open/floor/plating,
 /area/station/engineering/engine_smes)
 "bWA" = (
@@ -23586,12 +23582,8 @@
 "caw" = (
 /obj/effect/turf_decal/tile/electric_yellow/fourcorners,
 /obj/structure/table/glass/plasmaglass,
-/obj/item/stack/sheet/iron/fifty{
-	pixel_x = -4
-	},
-/obj/item/stack/sheet/glass/fifty{
-	pixel_x = 7
-	},
+/obj/effect/spawner/random/engineering/material,
+/obj/effect/spawner/random/engineering/material_cheap,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/main)
 "cay" = (
@@ -23946,6 +23938,7 @@
 	icon_state = "lantern-on"
 	},
 /obj/effect/turf_decal/sand/plating,
+/obj/structure/table/bronze,
 /turf/open/floor/iron,
 /area/station/service/chapel/asteroid/monastery)
 "ccM" = (
@@ -33717,6 +33710,13 @@
 	},
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/medical/medbay/lobby)
+"hPr" = (
+/obj/item/flashlight/lantern{
+	icon_state = "lantern-on"
+	},
+/obj/structure/table/bronze,
+/turf/open/misc/asteroid,
+/area/station/service/chapel/asteroid/monastery)
 "hPA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
 /obj/effect/turf_decal/siding/dark_blue{
@@ -33756,6 +33756,7 @@
 /obj/effect/turf_decal/tile/office_blue/half{
 	dir = 8
 	},
+/obj/item/storage/box/monkeycubes,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -37705,15 +37706,12 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
 "lnh" = (
-/obj/item/stack/cable_coil{
-	pixel_x = 3;
-	pixel_y = -7
-	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
 /obj/structure/table/glass,
+/obj/effect/spawner/random/engineering/material,
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/maintenance/disposal/incinerator)
 "lnl" = (
@@ -39434,6 +39432,7 @@
 	dir = 4
 	},
 /obj/structure/rack,
+/obj/effect/spawner/random/engineering/material_cheap,
 /turf/open/floor/iron/white,
 /area/station/engineering/atmos/hfr_room)
 "mNN" = (
@@ -40428,6 +40427,7 @@
 /area/station/maintenance/department/engine)
 "nIm" = (
 /obj/structure/table/reinforced,
+/obj/item/storage/box/monkeycubes,
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
 "nIt" = (
@@ -43509,6 +43509,7 @@
 	name = "Genetics Requests Console"
 	},
 /obj/structure/table,
+/obj/item/storage/box/monkeycubes,
 /turf/open/floor/iron/dark/small,
 /area/station/science/genetics)
 "pXH" = (
@@ -45348,6 +45349,8 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 8
 	},
+/obj/effect/spawner/random/engineering/material_cheap,
+/obj/effect/spawner/random/engineering/material,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
 	},
@@ -46792,7 +46795,6 @@
 	},
 /area/station/medical/medbay/lobby)
 "sxs" = (
-/obj/item/stack/sheet/iron/fifty,
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/camera/directional/east{
 	c_tag = "HFR Room"
@@ -46801,6 +46803,7 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced/rglass,
+/obj/effect/spawner/random/engineering/material,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -47940,12 +47943,12 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/stack/sheet/plasteel/twenty,
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
 /obj/structure/table/reinforced/rglass,
+/obj/effect/spawner/random/engineering/material_rare,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -48998,15 +49001,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
 	dir = 10
 	},
-/obj/item/stack/cable_coil{
-	pixel_x = 3;
-	pixel_y = -7
-	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
 /obj/structure/table/glass,
+/obj/effect/spawner/random/engineering/material,
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/maintenance/disposal/incinerator)
 "udJ" = (
@@ -54431,15 +54431,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
 	dir = 4
 	},
-/obj/item/stack/sheet/iron/fifty{
-	pixel_x = 2;
-	pixel_y = 2
-	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
 /obj/structure/table/glass,
+/obj/effect/spawner/random/engineering/material_cheap,
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/maintenance/disposal/incinerator)
 "ybX" = (
@@ -67189,7 +67186,7 @@ bGD
 bGH
 bNs
 bNs
-bQe
+hPr
 bOw
 bOw
 bOw
@@ -67452,7 +67449,7 @@ bOw
 bOw
 bOw
 bOw
-bQe
+hPr
 bWV
 bWV
 bWV
@@ -68981,15 +68978,15 @@ kgU
 bNt
 bNw
 bNw
-bQe
+hPr
 bOw
 bOw
 bOw
-bQe
+hPr
 bOw
 bOw
 bOw
-bQe
+hPr
 xXp
 rfa
 rfa
@@ -69752,15 +69749,15 @@ dQg
 bNv
 bNw
 bNw
-bQe
+hPr
 bOw
 bOw
 bOw
-bQe
+hPr
 bOw
 bOw
 bOw
-bQe
+hPr
 xXp
 rfa
 rfa
@@ -71558,7 +71555,7 @@ bSn
 cFX
 bNs
 bNs
-bQe
+hPr
 bOw
 bOw
 bOw
