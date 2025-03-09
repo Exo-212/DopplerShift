@@ -5160,6 +5160,7 @@
 	id = "Cell 2";
 	pixel_x = -28
 	},
+/obj/effect/landmark/start/prisoner,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "avy" = (
@@ -49998,6 +49999,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"uNs" = (
+/obj/effect/landmark/start/prisoner,
+/turf/open/floor/iron,
+/area/station/security/brig)
 "uOe" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -76872,7 +76877,7 @@ wbs
 mJe
 pHh
 flR
-ark
+uNs
 uUY
 tMK
 aQt
