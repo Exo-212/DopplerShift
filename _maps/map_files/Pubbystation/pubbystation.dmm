@@ -1801,6 +1801,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /obj/effect/turf_decal/tile/red/fourcorners,
+/obj/machinery/scanner_gate/preset_guns,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "ajg" = (
@@ -2169,6 +2170,10 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/light/directional/east,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/aft)
 "akp" = (
@@ -5499,6 +5504,7 @@
 	name = "Brig"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/entrance,
+/obj/machinery/scanner_gate/preset_guns,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "awN" = (
@@ -5519,6 +5525,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/entrance,
 /obj/structure/cable,
+/obj/machinery/scanner_gate/preset_guns,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "awO" = (
@@ -9133,6 +9140,10 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron/white/corner{
 	dir = 1
 	},
@@ -9326,6 +9337,10 @@
 	c_tag = "Dormitories Hallway"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "aNK" = (
@@ -12133,6 +12148,10 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/aft)
 "bat" = (
@@ -12622,6 +12641,10 @@
 	pixel_x = 0;
 	pixel_y = -21
 	},
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "bcm" = (
@@ -12762,6 +12785,10 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/sign/departments/security/directional/north,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron/white/corner{
 	dir = 1
 	},
@@ -13208,6 +13235,10 @@
 	dir = 8
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron/white/corner,
 /area/station/hallway/secondary/entry)
 "bfb" = (
@@ -13285,6 +13316,10 @@
 	name = "Bar Shutters"
 	},
 /obj/effect/turf_decal/delivery/white,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)
 "bft" = (
@@ -20170,6 +20205,10 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "bMu" = (
@@ -27109,6 +27148,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /obj/effect/turf_decal/tile/red/fourcorners,
+/obj/machinery/scanner_gate/preset_guns,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "cxq" = (
@@ -36343,6 +36383,21 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/ordnance/testlab)
+"kht" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/aft)
 "khC" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/kitchen/diagonal,
@@ -43315,6 +43370,10 @@
 	},
 /obj/machinery/firealarm/directional/north,
 /obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "pRR" = (
@@ -46529,6 +46588,10 @@
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/delivery/white,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)
 "snT" = (
@@ -46594,6 +46657,10 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "sql" = (
@@ -46824,11 +46891,12 @@
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
 "syn" = (
-/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "syr" = (
@@ -49469,10 +49537,6 @@
 "usl" = (
 /turf/open/floor/iron/white/smooth_large,
 /area/station/maintenance/disposal/incinerator)
-"uso" = (
-/obj/effect/landmark/start/prisoner,
-/turf/open/floor/iron,
-/area/station/security/brig)
 "usu" = (
 /obj/structure/cable,
 /turf/open/floor/iron/showroomfloor,
@@ -49924,6 +49988,14 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/lobby)
+"uIb" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/fore)
 "uIn" = (
 /obj/machinery/nuclearbomb/beer,
 /obj/structure/cable,
@@ -50624,6 +50696,20 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/storage_shared)
+"vkz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/exit/departure_lounge)
 "vkB" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/siding{
@@ -51887,6 +51973,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/closed/wall,
 /area/station/medical/coldroom)
+"wjM" = (
+/obj/effect/landmark/start/prisoner,
+/turf/open/floor/iron,
+/area/station/security/brig)
 "wkm" = (
 /obj/machinery/requests_console/directional/east{
 	department = "Security";
@@ -52713,6 +52803,12 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/any/security/maintenance,
 /obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "wRC" = (
@@ -53305,6 +53401,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/command/bridge)
+"xki" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
+/turf/open/floor/iron/white/corner,
+/area/station/hallway/secondary/exit/departure_lounge)
 "xkk" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
@@ -53393,6 +53499,21 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
+"xlQ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/machinery/scanner_gate{
+	scangate_mode = "Warrant";
+	req_access = list("security")
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/fore)
 "xmg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -71476,8 +71597,8 @@ xTe
 xTe
 xTe
 xTe
-xTe
-syn
+tlB
+kap
 axg
 dsO
 dsO
@@ -71990,7 +72111,7 @@ xTe
 aiu
 coG
 cIt
-ajD
+syn
 atp
 aus
 aiu
@@ -72247,7 +72368,7 @@ aof
 aiu
 aqh
 lqc
-ajD
+syn
 atq
 aut
 aiu
@@ -75360,8 +75481,8 @@ aRB
 aRB
 aOs
 aML
-bsG
-aWK
+vkz
+xki
 aOs
 hXW
 bxJ
@@ -76877,7 +76998,7 @@ wbs
 mJe
 pHh
 flR
-uso
+wjM
 uUY
 tMK
 aQt
@@ -80230,8 +80351,8 @@ mxg
 aDA
 aGg
 aBi
-adY
-mTc
+uIb
+xlQ
 bcl
 aKP
 hmr
@@ -90270,7 +90391,7 @@ tyz
 tyz
 tyz
 rTD
-qve
+kht
 sMg
 sMg
 ygW
