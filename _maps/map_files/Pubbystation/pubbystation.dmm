@@ -10898,20 +10898,19 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/item/storage/fancy/coffee_condi_display,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
 /area/station/service/bar)
 "aVi" = (
-/obj/item/reagent_containers/cup/glass/shaker{
-	pixel_x = 1;
-	pixel_y = 13
-	},
 /obj/structure/table/glass/plasmaglass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/coffeemaker,
+/obj/item/coffee_cartridge/fancy,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -15076,6 +15075,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+/obj/machinery/restaurant_portal/restaurant,
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)
 "bnd" = (
@@ -26036,17 +26036,18 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/item/storage/box/coffeepack,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
 /area/station/service/bar)
 "cpc" = (
-/obj/machinery/chem_dispenser/drinks,
 /obj/structure/table,
 /obj/machinery/camera/directional/north{
 	c_tag = "Bar Drinks"
 	},
 /obj/machinery/airalarm/directional/north,
+/obj/machinery/chem_dispenser/drinks/fullupgrade,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -26172,9 +26173,7 @@
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen)
 "cpz" = (
-/obj/structure/rack,
-/obj/item/stack/package_wrap,
-/obj/item/hand_labeler,
+/obj/machinery/smartfridge/drying,
 /turf/open/floor/iron/kitchen/small,
 /area/station/service/kitchen)
 "cpA" = (
@@ -32855,6 +32854,15 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay)
+"gKK" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = 1;
+	pixel_y = 13
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/bar)
 "gLd" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -35262,6 +35270,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/weather/snow/corner,
+/obj/structure/rack,
+/obj/item/hand_labeler,
+/obj/item/stack/package_wrap,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
 "iOf" = (
@@ -39404,7 +39415,6 @@
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/science/xenobiology)
 "mqp" = (
-/obj/machinery/chem_dispenser/drinks/beer,
 /obj/structure/table,
 /obj/machinery/requests_console/directional/north{
 	department = "Bar";
@@ -39416,6 +39426,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -55102,12 +55113,12 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet/directional/north,
-/obj/effect/landmark/start/hangover,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/restaurant_portal/bar,
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)
 "xXi" = (
@@ -87702,7 +87713,7 @@ aKT
 aVh
 uvU
 beB
-lLL
+gKK
 qmm
 oht
 bbp
