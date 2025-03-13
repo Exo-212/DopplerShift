@@ -15304,7 +15304,7 @@
 "boO" = (
 /obj/effect/turf_decal/tile/pine_green/anticorner/contrasted,
 /obj/machinery/disposal/bin{
-	name = "Corpse Disposal"
+	name = "Disposal Unit"
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -19239,6 +19239,15 @@
 	dir = 8
 	},
 /area/station/science/ordnance)
+"bGy" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = 1;
+	pixel_y = 13
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/bar)
 "bGB" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/machinery/light/directional/south,
@@ -32854,15 +32863,6 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay)
-"gKK" = (
-/obj/machinery/door/firedoor,
-/obj/structure/table/reinforced/plasmarglass,
-/obj/item/reagent_containers/cup/glass/shaker{
-	pixel_x = 1;
-	pixel_y = 13
-	},
-/turf/open/floor/iron/dark,
-/area/station/service/bar)
 "gLd" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -87713,7 +87713,7 @@ aKT
 aVh
 uvU
 beB
-gKK
+bGy
 qmm
 oht
 bbp
