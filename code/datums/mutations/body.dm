@@ -118,7 +118,7 @@
 	difficulty = 16
 	instability = POSITIVE_INSTABILITY_MINOR
 	conflicts = list(/datum/mutation/human/gigantism, /datum/mutation/human/acromegaly)
-	locked = TRUE // Default intert species for now, so locked from regular pool.
+//	locked = TRUE // Default intert species for now, so locked from regular pool. // doppler edit bc fuck it we ball?
 
 /datum/mutation/human/dwarfism/on_acquiring(mob/living/carbon/human/owner)
 	if(..())
@@ -226,12 +226,10 @@
 				owner.emote("twitch")
 			if(2 to 3)
 				owner.say("[prob(50) ? ";" : ""][pick("SHIT", "PISS", "FUCK", "CUNT", "COCKSUCKER", "MOTHERFUCKER", "TITS")]", forced=name)
-		var/x_offset_old = owner.pixel_x
-		var/y_offset_old = owner.pixel_y
-		var/x_offset = owner.pixel_x + rand(-2,2)
-		var/y_offset = owner.pixel_y + rand(-1,1)
-		animate(owner, pixel_x = x_offset, pixel_y = y_offset, time = 1)
-		animate(owner, pixel_x = x_offset_old, pixel_y = y_offset_old, time = 1)
+		var/w_offset =  rand(-2, 2)
+		var/z_offset = rand(-1, 1)
+		animate(owner, pixel_w = w_offset, pixel_z = z_offset, time = 0.1 SECONDS, flags = ANIMATION_RELATIVE|ANIMATION_PARALLEL)
+		animate(owner, pixel_w = -w_offset, pixel_z = -z_offset, time = 0.1 SECONDS, flags = ANIMATION_RELATIVE)
 
 
 //Deafness makes you deaf.

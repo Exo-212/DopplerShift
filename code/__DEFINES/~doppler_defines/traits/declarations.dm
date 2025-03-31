@@ -6,3 +6,12 @@
 
 /// The trait corresponding with the oversized quirk.
 #define TRAIT_OVERSIZED "oversized"
+
+//// The trait for undersized quirk
+#define TRAIT_UNDERSIZED "undersized"
+
+/// Carp infusion: allows preferential metabolism & production of carpotoxin
+#define TRAIT_CARP_GOODTOX "carp_goodtox"
+
+/// chamskin toggle - lets yo ufucking toggle shit shut up
+#define TRAIT_CHAMELEON_SKIN "chameleon_skin"

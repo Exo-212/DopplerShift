@@ -15,10 +15,13 @@
 /datum/loadout_item/mask
 	abstract_type = /datum/loadout_item/mask
 
-/datum/loadout_item/mask/insert_path_into_outfit(datum/outfit/outfit, mob/living/carbon/human/equipper, visuals_only = FALSE)
-	if(outfit.mask)
-		LAZYADD(outfit.backpack_contents, outfit.mask)
-	outfit.mask = item_path
+/datum/loadout_item/mask/insert_path_into_outfit(datum/outfit/outfit, mob/living/carbon/human/equipper, visuals_only = FALSE, override_items = LOADOUT_OVERRIDE_BACKPACK)
+	if(override_items == LOADOUT_OVERRIDE_BACKPACK && !visuals_only)
+		if(outfit.mask)
+			LAZYADD(outfit.backpack_contents, outfit.mask)
+		outfit.mask = item_path
+	else
+		outfit.mask = item_path
 
 /datum/loadout_item/mask/face_mask
 	name = "Face Mask"
@@ -91,3 +94,11 @@
 /datum/loadout_item/mask/respirator
 	name = "Half-Mask Respirator"
 	item_path = /obj/item/clothing/mask/gas/respirator
+
+/datum/loadout_item/mask/mantis
+	name = "Composite Gas Mask"
+	item_path = /obj/item/clothing/mask/gas/mantis
+
+/datum/loadout_item/mask/half_face
+	name = "Half-Face Rebreather"
+	item_path = /obj/item/clothing/mask/gas/nightlight

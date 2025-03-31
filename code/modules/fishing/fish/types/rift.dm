@@ -63,7 +63,8 @@
 /obj/item/fish/starfish/chrystarfish/set_status(new_status, silent)
 	. = ..()
 	if(new_status == FISH_DEAD)
-		new fillet_type(get_turf(src))
+		if(fillet_type)
+			new fillet_type(get_turf(src))
 		playsound(src, SFX_SHATTER, 50)
 		qdel(src)
 
@@ -126,8 +127,8 @@
 	pickup_sound = SFX_FISH_PICKUP
 	sound_vary = TRUE
 
-	base_pixel_x = -16
-	pixel_x = -16
+	base_pixel_w = -16
+	pixel_w = -16
 	sprite_width = 13
 	sprite_height = 9
 
@@ -315,7 +316,7 @@
 	playsound(user, 'sound/effects/cartoon_sfx/cartoon_pop.ogg', 50, TRUE)
 	user.visible_message("[user]'s [eyes ? eyes : "eye holes"] suddenly sprout stalks and turn into [new_eyes]!")
 	ASYNC
-		user.emote("scream")
+		user.painful_scream() // DOPPLER EDIT: check for painkilling before screaming
 		eyes.throw_at(get_edge_target_turf(user, pick(GLOB.alldirs)), rand(1, 10), rand(1, 10))
 		sleep(5 SECONDS)
 		if(!QDELETED(eyes))
