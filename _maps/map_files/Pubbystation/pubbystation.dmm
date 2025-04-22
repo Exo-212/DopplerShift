@@ -4922,9 +4922,8 @@
 /turf/closed/wall,
 /area/station/command/heads_quarters/captain)
 "auI" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/iron/white,
 /area/station/engineering/atmos/hfr_room)
 "auJ" = (
 /obj/structure/disposalpipe/segment,
@@ -14384,8 +14383,8 @@
 /obj/structure/window/spawner/directional/west,
 /obj/machinery/camera/autoname/motion/directional/north,
 /obj/machinery/button/door/directional/north{
-	id_tag = "exam";
-	name = "Entrance Lockdown"
+	name = "Entrance Lockdown";
+	id = "exam"
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/treatment_center)
@@ -27930,12 +27929,6 @@
 	dir = 8
 	},
 /area/station/engineering/main)
-"cDx" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers,
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/station/engineering/atmos/hfr_room)
 "cEI" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/soda_cans/dr_gibb,
@@ -28238,13 +28231,6 @@
 	},
 /turf/open/floor/iron/white/small,
 /area/station/science/research)
-"cTn" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/blue/half/contrasted,
-/turf/open/floor/iron/white/textured_edge{
-	dir = 1
-	},
-/area/station/engineering/atmos/hfr_room)
 "cTr" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -28903,6 +28889,13 @@
 "dAa" = (
 /turf/closed/wall/r_wall,
 /area/station/security/lockers)
+"dAd" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/iron/white/textured_edge{
+	dir = 1
+	},
+/area/station/engineering/atmos/hfr_room)
 "dAF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -33183,6 +33176,13 @@
 "gZl" = (
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/medbay/central)
+"gZm" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white/textured_edge,
+/area/station/engineering/atmos/hfr_room)
 "gZx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -34309,8 +34309,8 @@
 /obj/effect/turf_decal/tile/pine_green,
 /obj/effect/landmark/start/hangover,
 /obj/machinery/button/door/directional/south{
-	id_tag = "exam";
-	name = "Entrance Lockdown"
+	name = "Entrance Lockdown";
+	id = "exam"
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/aft)
@@ -35107,6 +35107,13 @@
 /obj/item/reagent_containers/cup/bucket,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/storage_shared)
+"iFR" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/structure/cable,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
+	},
+/area/station/engineering/atmos/hfr_room)
 "iGi" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/window/spawner/directional/south,
@@ -36213,12 +36220,13 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "jFQ" = (
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 1
-	},
 /obj/structure/cable,
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/iron/white/textured,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/white/textured_edge{
+	dir = 4
+	},
 /area/station/engineering/atmos/hfr_room)
 "jFW" = (
 /obj/structure/maintenance_loot_structure/grenade_box/random,
@@ -37631,9 +37639,13 @@
 /turf/open/floor/plating,
 /area/station/security/range)
 "kJU" = (
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
 /obj/structure/cable,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white/textured_edge{
+	dir = 4
+	},
 /area/station/engineering/atmos/hfr_room)
 "kKf" = (
 /obj/item/kirbyplants/organic/plant8,
@@ -38702,7 +38714,7 @@
 "lEX" = (
 /obj/effect/turf_decal/tile/pine_green/fourcorners,
 /obj/machinery/door/poddoor/shutters/colony_fabricator/preopen{
-	id_tag = "exam"
+	id = "exam"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white/smooth_edge{
@@ -39078,15 +39090,6 @@
 "lWy" = (
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
-"lWD" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 8
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/white/textured_edge{
-	dir = 4
-	},
-/area/station/engineering/atmos/hfr_room)
 "lWJ" = (
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/storage_shared)
@@ -45056,13 +45059,6 @@
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
 /area/station/hallway/primary/central/fore)
-"qyg" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/white/textured_edge,
-/area/station/engineering/atmos/hfr_room)
 "qyz" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 8;
@@ -45733,7 +45729,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/machinery/door/poddoor/shutters/colony_fabricator/preopen{
-	id_tag = "exam"
+	id = "exam"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
@@ -45830,13 +45826,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood,
 /area/station/maintenance/department/engine)
-"ric" = (
-/obj/effect/turf_decal/tile/blue/half/contrasted,
-/obj/structure/cable,
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 1
-	},
-/area/station/engineering/atmos/hfr_room)
 "rie" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -49004,6 +48993,14 @@
 /obj/effect/turf_decal/tile/dark/diagonal_edge,
 /turf/open/floor/iron/white/diagonal,
 /area/station/ai_monitored/turret_protected/ai_upload)
+"tsh" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/white/textured,
+/area/station/engineering/atmos/hfr_room)
 "tsq" = (
 /obj/structure/cable,
 /obj/structure/table,
@@ -49712,12 +49709,10 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "tSV" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers,
+/obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 8
-	},
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/iron/white/textured,
+/turf/open/floor/plating,
 /area/station/engineering/atmos/hfr_room)
 "tTB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -50430,6 +50425,14 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/command/bridge)
+"utj" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/white/textured,
+/area/station/engineering/atmos/hfr_room)
 "utT" = (
 /obj/effect/spawner/random/glass_debris,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -51058,13 +51061,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
 "uTc" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /obj/structure/cable,
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron/white/textured_edge{
-	dir = 4
-	},
+/turf/open/floor/iron/white,
 /area/station/engineering/atmos/hfr_room)
 "uTt" = (
 /obj/machinery/firealarm/directional/north,
@@ -53587,7 +53586,7 @@
 "wJL" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/colony_fabricator/preopen{
-	id_tag = "exam"
+	id = "exam"
 	},
 /turf/open/floor/plating,
 /area/station/medical/treatment_center)
@@ -53765,8 +53764,9 @@
 /turf/open/floor/carpet/red,
 /area/station/medical/psychology)
 "wQE" = (
+/obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
-/turf/open/floor/iron/white,
+/turf/open/floor/plating,
 /area/station/engineering/atmos/hfr_room)
 "wQU" = (
 /obj/effect/spawner/random/maintenance,
@@ -92279,11 +92279,11 @@ svD
 bJP
 hzr
 hzr
-auI
-auI
-auI
-auI
-auI
+wQE
+wQE
+wQE
+wQE
+wQE
 hzr
 hzr
 aaa
@@ -92535,13 +92535,13 @@ cbu
 cbu
 bJP
 hzr
+utj
+kJU
+xJb
+xJb
+xJb
 jFQ
-lWD
-xJb
-xJb
-xJb
-uTc
-tSV
+tsh
 hzr
 pDW
 pDW
@@ -92791,15 +92791,15 @@ bJP
 bJP
 bJP
 bJP
-auI
-qyg
+wQE
+gZm
 jQB
 jQB
 jQB
 jQB
 jQB
-cTn
-auI
+dAd
+wQE
 aaa
 aaa
 aaa
@@ -93048,7 +93048,7 @@ gGn
 cby
 afp
 bJP
-auI
+wQE
 iGR
 jQB
 azm
@@ -93056,7 +93056,7 @@ azN
 evU
 jQB
 ijt
-auI
+wQE
 aaa
 aaa
 aaa
@@ -93305,7 +93305,7 @@ cbx
 cco
 lag
 bJP
-auI
+wQE
 iGR
 jQB
 rsy
@@ -93313,7 +93313,7 @@ rjl
 syt
 jQB
 ijt
-auI
+wQE
 aaa
 aaa
 aaa
@@ -93562,7 +93562,7 @@ oCb
 cby
 cby
 bJP
-auI
+wQE
 iGR
 jQB
 evU
@@ -93570,7 +93570,7 @@ ssU
 azm
 jQB
 ijt
-auI
+wQE
 aaa
 aaa
 aaa
@@ -93819,15 +93819,15 @@ bJP
 bJP
 bJP
 bJP
-auI
-qyg
+wQE
+gZm
 jQB
 jQB
 jQB
 jQB
 jQB
 ijt
-auI
+wQE
 aaa
 aaa
 aaa
@@ -94084,7 +94084,7 @@ pjM
 pjM
 pjM
 hCg
-auI
+wQE
 aaa
 aaa
 aaa
@@ -94341,7 +94341,7 @@ pjM
 pjM
 pjM
 wfp
-cDx
+tSV
 aaa
 aaa
 aaa
@@ -94597,8 +94597,8 @@ pjM
 pjM
 pjM
 pjM
-ric
-auI
+iFR
+wQE
 aaa
 aaa
 aaa
@@ -94853,8 +94853,8 @@ rfm
 sxs
 tlU
 wMm
-wQE
-kJU
+auI
+uTc
 hzr
 aaa
 aaa
