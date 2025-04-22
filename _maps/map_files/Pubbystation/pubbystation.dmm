@@ -15448,10 +15448,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
-"bpQ" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/security/checkpoint/medical)
 "bpR" = (
 /obj/machinery/door/window/right/directional/north{
 	name = "Medbay Front Desk";
@@ -15461,7 +15457,7 @@
 /obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
-/area/station/security/checkpoint/medical)
+/area/station/medical/medbay/lobby)
 "bpT" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/status_display/ai{
@@ -18939,8 +18935,8 @@
 /turf/open/floor/iron/white,
 /area/station/hallway/primary/aft)
 "bFb" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/portable_atmospherics/canister/water_vapor,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/engine,
 /area/station/science/ordnance/storage)
 "bFc" = (
@@ -20957,7 +20953,7 @@
 	},
 /area/station/engineering/atmos)
 "bPh" = (
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/obj/machinery/atmospherics/miner/n2o,
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
 "bPo" = (
@@ -21693,7 +21689,7 @@
 /turf/open/floor/iron/textured_large,
 /area/station/engineering/atmos)
 "bSk" = (
-/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/atmospherics/miner/plasma,
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "bSm" = (
@@ -22550,7 +22546,7 @@
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "bVo" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/machinery/atmospherics/miner/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
 "bVp" = (
@@ -24039,11 +24035,11 @@
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/main)
 "ccm" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "ccn" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "cco" = (
@@ -28360,8 +28356,13 @@
 /turf/open/floor/iron,
 /area/station/security/office)
 "dcN" = (
-/turf/open/space/basic,
-/area/station/tcommsat/computer)
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/water_vapor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/station/science/ordnance/storage)
 "dcQ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
@@ -35005,6 +35006,7 @@
 	network = list("tcomms");
 	start_active = 1
 	},
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
 "iBY" = (
@@ -84728,7 +84730,7 @@ tLk
 bmv
 nAh
 bja
-bpQ
+xQr
 qqQ
 qEf
 bug
@@ -84822,7 +84824,7 @@ aaa
 aaa
 aaa
 aaa
-dcN
+aht
 clw
 nTk
 nTk
@@ -85079,7 +85081,7 @@ aaa
 aaa
 aaa
 aaa
-dcN
+aht
 clw
 lou
 ckM
@@ -85499,7 +85501,7 @@ lxx
 sLv
 ulq
 bja
-bja
+mKE
 vII
 frX
 dRU
@@ -94248,7 +94250,7 @@ bHw
 bBE
 bCQ
 bFc
-bFc
+dcN
 bGh
 pDe
 eAa
