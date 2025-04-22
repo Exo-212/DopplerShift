@@ -15448,6 +15448,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"bpQ" = (
+/obj/effect/landmark/blobstart,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/engineering/atmos)
 "bpR" = (
 /obj/machinery/door/window/right/directional/north{
 	name = "Medbay Front Desk";
@@ -84215,7 +84219,7 @@ bja
 bja
 bja
 bja
-bja
+bjc
 djh
 xte
 bIy
@@ -92212,7 +92216,7 @@ bRx
 bPQ
 bXC
 sGc
-bWO
+bpQ
 wCz
 wwr
 sEx
