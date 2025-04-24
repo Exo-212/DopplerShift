@@ -36660,6 +36660,10 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/station/hallway/primary/aft)
+"jXz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "jXA" = (
 /obj/structure/table,
 /obj/item/stack/ore/iron,
@@ -37648,16 +37652,6 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
-"kKQ" = (
-/obj/machinery/light/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "kLp" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
@@ -51743,10 +51737,6 @@
 "vpC" = (
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
-"vrw" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos)
 "vrx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
@@ -74790,7 +74780,7 @@ aaa
 enF
 pMh
 mKd
-kKQ
+tqd
 jsa
 rrI
 aZx
@@ -75047,7 +75037,7 @@ aaa
 aZx
 hXW
 hXW
-bop
+ntG
 jsa
 uib
 aZx
@@ -91787,7 +91777,7 @@ bOk
 wCz
 mvA
 qIz
-vrw
+jXz
 bZL
 bJP
 bJP
