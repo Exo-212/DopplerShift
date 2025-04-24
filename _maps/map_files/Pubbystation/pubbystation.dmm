@@ -23084,10 +23084,6 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/engineering/atmos)
-"bXx" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/turf/open/floor/iron/white/smooth_large,
-/area/station/engineering/atmos)
 "bXy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold/general/visible{
@@ -23620,7 +23616,7 @@
 /area/space/nearstation)
 "bZL" = (
 /obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/space,
 /area/space/nearstation)
 "bZT" = (
@@ -29066,6 +29062,9 @@
 	name = "O2 Outlet Pump"
 	},
 /obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
+	dir = 4
+	},
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -30654,9 +30653,6 @@
 "eYd" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
-/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
-	dir = 4
-	},
 /turf/open/space,
 /area/space/nearstation)
 "eYM" = (
@@ -33597,13 +33593,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/science/research)
-"hrx" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
-	dir = 5
-	},
-/turf/open/space,
-/area/space/nearstation)
 "hsQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -40759,11 +40748,6 @@
 /obj/structure/tank_dispenser,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/ordnance/testlab)
-"noR" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
 "noT" = (
 /obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
 /turf/open/floor/plating,
@@ -45314,6 +45298,7 @@
 "qIz" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -46582,12 +46567,9 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/maintenance/disposal/incinerator)
 "rGo" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
-	dir = 9
-	},
-/turf/open/space,
-/area/space/nearstation)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "rGD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/effect/spawner/structure/window/reinforced,
@@ -47967,11 +47949,11 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "sEx" = (
-/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible,
 /obj/machinery/computer/atmos_control/oxygen_tank{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -48225,13 +48207,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
-"sRP" = (
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
-	dir = 6
-	},
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
 "sSd" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/plating,
@@ -51782,11 +51757,6 @@
 "vpC" = (
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
-"vrw" = (
-/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
 "vrx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
@@ -53291,10 +53261,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "wwr" = (
-/obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/turf/open/space,
-/area/space/nearstation)
+/turf/open/floor/iron/white/smooth_large,
+/area/station/engineering/atmos)
 "wwG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -91066,7 +91035,7 @@ xhP
 qbv
 mkS
 tvq
-wwr
+bZL
 caC
 jOk
 cbs
@@ -91834,10 +91803,10 @@ eKY
 wUN
 bOk
 wCz
-bXx
+mvA
 qIz
-fBp
-abI
+rGo
+bZL
 bJP
 bJP
 bJP
@@ -92091,9 +92060,9 @@ ksv
 sGc
 eUb
 wCz
-mvA
-mkS
-noR
+wwr
+uWA
+vzg
 bZL
 caC
 cRY
@@ -92348,10 +92317,10 @@ bXC
 sGc
 bpQ
 wCz
-bXx
+wwr
 sEx
-vrw
-hrx
+vzg
+abI
 mkf
 cbv
 ccn
@@ -92863,9 +92832,9 @@ eLN
 pyH
 wCz
 pyH
-uWA
-sRP
-rGo
+mkS
+tvq
+abI
 bJP
 bJP
 bJP
