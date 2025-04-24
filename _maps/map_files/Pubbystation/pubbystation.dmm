@@ -19619,9 +19619,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "bJc" = (
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 1
-	},
+/turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "bJd" = (
 /obj/structure/chair/comfy/black,
@@ -23083,6 +23081,10 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
+/area/station/engineering/atmos)
+"bXx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/closed/wall/r_wall,
 /area/station/engineering/atmos)
 "bXy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29258,9 +29260,7 @@
 /area/station/service/chapel/dock)
 "dQh" = (
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 1
-	},
+/turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "dQq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -42911,7 +42911,9 @@
 /obj/effect/turf_decal/tile/pine_green{
 	dir = 4
 	},
-/turf/open/floor/iron/white/smooth_edge,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 4
+	},
 /area/station/medical/medbay)
 "oXp" = (
 /obj/machinery/requests_console/directional/east{
@@ -46566,10 +46568,6 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/maintenance/disposal/incinerator)
-"rGo" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos)
 "rGD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/effect/spawner/structure/window/reinforced,
@@ -46587,9 +46585,7 @@
 /area/station/medical/psychology)
 "rHA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 1
-	},
+/turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "rHJ" = (
 /obj/structure/cable,
@@ -54720,9 +54716,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "xsa" = (
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 4
-	},
+/turf/open/floor/iron/white/smooth_edge,
 /area/station/medical/medbay)
 "xsm" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -55828,9 +55822,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/white/smooth_half{
-	dir = 1
-	},
+/turf/open/floor/iron/white/smooth_edge,
 /area/station/medical/medbay)
 "yiF" = (
 /obj/structure/cable,
@@ -91805,7 +91797,7 @@ bOk
 wCz
 mvA
 qIz
-rGo
+bXx
 bZL
 bJP
 bJP
