@@ -33582,10 +33582,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/science/research)
-"hrx" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos)
 "hsQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -48197,11 +48193,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
-"sRP" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
 "sSd" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/plating,
@@ -49112,6 +49103,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/abandoned_gambling_den)
+"tvq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/engineering/atmos)
 "tvr" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
@@ -51747,6 +51743,10 @@
 "vpC" = (
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
+"vrw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "vrx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
@@ -82854,10 +82854,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 abI
 aaa
 aaa
@@ -82874,6 +82870,10 @@ aaa
 aaa
 aaa
 abI
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -83109,10 +83109,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 adR
 adR
 adR
@@ -83135,6 +83131,10 @@ adR
 adR
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -83368,10 +83368,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 abI
 aaa
 aaa
@@ -83392,6 +83388,10 @@ aaa
 aaa
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -83620,10 +83620,6 @@ aht
 aht
 aht
 aht
-aht
-aht
-aht
-aht
 abI
 abI
 abI
@@ -83650,6 +83646,10 @@ cmB
 cny
 adR
 abI
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -83880,10 +83880,6 @@ cig
 cgP
 cgP
 cgP
-cig
-cgP
-cgP
-cgP
 clC
 clH
 clP
@@ -83906,6 +83902,10 @@ cnr
 cmB
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -84134,10 +84134,6 @@ pEK
 pEK
 pEK
 pEK
-pEK
-pEK
-pEK
-pEK
 blf
 clw
 clw
@@ -84163,6 +84159,10 @@ cns
 cmB
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -84391,10 +84391,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 teJ
 lci
 btK
@@ -84420,6 +84416,10 @@ cnt
 cmB
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -84648,10 +84648,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 iBJ
 clw
 hQz
@@ -84678,6 +84674,10 @@ cmB
 bfr
 adR
 abI
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -84905,10 +84905,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 aht
 clw
 nTk
@@ -84934,6 +84930,10 @@ eel
 cmB
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -85162,10 +85162,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 aht
 clw
 lou
@@ -85191,6 +85187,10 @@ cnw
 cmB
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -85419,10 +85419,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 abI
 clw
 ckM
@@ -85448,6 +85444,10 @@ cnx
 cmB
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -85676,10 +85676,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 abI
 clw
 clw
@@ -85706,6 +85702,10 @@ cmB
 cnz
 adR
 abI
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -85938,10 +85938,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 abI
 aaa
 aaa
@@ -85962,6 +85958,10 @@ aaa
 aaa
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -86193,10 +86193,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 adR
 adR
 adR
@@ -86219,6 +86215,10 @@ adR
 adR
 aaa
 adR
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -86452,10 +86452,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
 abI
 aaa
 aaa
@@ -86472,6 +86468,10 @@ aaa
 aaa
 aaa
 abI
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -91016,7 +91016,7 @@ xhP
 xhP
 qbv
 mkS
-sRP
+tvq
 bZL
 caC
 jOk
@@ -91787,7 +91787,7 @@ bOk
 wCz
 mvA
 qIz
-hrx
+vrw
 bZL
 bJP
 bJP
@@ -92815,7 +92815,7 @@ pyH
 wCz
 pyH
 mkS
-sRP
+tvq
 abI
 bJP
 bJP
