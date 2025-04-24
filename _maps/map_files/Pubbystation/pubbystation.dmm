@@ -23085,9 +23085,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/engineering/atmos)
 "bXx" = (
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/engineering/atmos)
 "bXy" = (
@@ -23729,7 +23727,7 @@
 /area/station/engineering/atmos)
 "caC" = (
 /obj/machinery/meter,
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos)
 "caE" = (
@@ -36425,12 +36423,10 @@
 /turf/open/floor/wood,
 /area/station/commons/lounge)
 "jNe" = (
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
-	dir = 4
-	},
 /obj/effect/turf_decal/trimline/electric_yellow/line{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/engineering/atmos)
 "jNg" = (
@@ -39428,8 +39424,8 @@
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "mkS" = (
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -49147,8 +49143,8 @@
 /turf/open/floor/iron/dark,
 /area/station/service/abandoned_gambling_den)
 "tvq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /turf/open/floor/plating,
 /area/station/engineering/atmos)
 "tvr" = (
@@ -53295,11 +53291,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "wwr" = (
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
-	dir = 10
-	},
-/turf/open/floor/iron/white/smooth_large,
-/area/station/engineering/atmos)
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/open/space,
+/area/space/nearstation)
 "wwG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -91071,7 +91066,7 @@ xhP
 qbv
 mkS
 tvq
-bZL
+wwr
 caC
 jOk
 cbs
@@ -92353,7 +92348,7 @@ bXC
 sGc
 bpQ
 wCz
-wwr
+bXx
 sEx
 vrw
 hrx
