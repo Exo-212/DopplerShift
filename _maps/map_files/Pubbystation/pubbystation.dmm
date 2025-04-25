@@ -13789,7 +13789,6 @@
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "bgW" = (
@@ -13808,7 +13807,6 @@
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "bgX" = (
@@ -14090,7 +14088,6 @@
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "bic" = (
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "bie" = (
@@ -14244,7 +14241,6 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "biO" = (
@@ -30385,7 +30381,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "eNW" = (
@@ -36660,10 +36655,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/station/hallway/primary/aft)
-"jXz" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos)
 "jXA" = (
 /obj/structure/table,
 /obj/item/stack/ore/iron,
@@ -38979,7 +38970,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "lRD" = (
@@ -40727,6 +40717,10 @@
 /obj/structure/tank_dispenser,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/ordnance/testlab)
+"noR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "noT" = (
 /obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
 /turf/open/floor/plating,
@@ -41909,7 +41903,6 @@
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "omR" = (
@@ -44641,7 +44634,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "qkf" = (
@@ -48187,6 +48179,11 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
+"sRP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/engineering/atmos)
 "sSd" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/plating,
@@ -49097,11 +49094,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/abandoned_gambling_den)
-"tvq" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/engineering/atmos)
 "tvr" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
@@ -52280,7 +52272,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "vPa" = (
@@ -91006,7 +90997,7 @@ xhP
 xhP
 qbv
 mkS
-tvq
+sRP
 bZL
 caC
 jOk
@@ -91777,7 +91768,7 @@ bOk
 wCz
 mvA
 qIz
-jXz
+noR
 bZL
 bJP
 bJP
@@ -92805,7 +92796,7 @@ pyH
 wCz
 pyH
 mkS
-tvq
+sRP
 abI
 bJP
 bJP
