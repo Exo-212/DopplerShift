@@ -6542,7 +6542,7 @@
 /area/station/maintenance/solars/port/fore)
 "aAY" = (
 /obj/structure/cable,
-/obj/machinery/power/smes/battery_pack,
+/obj/machinery/power/smes,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/fore)
 "aBd" = (
@@ -8533,7 +8533,7 @@
 /area/station/commons/toilet/restrooms)
 "aJp" = (
 /obj/structure/cable,
-/obj/machinery/power/smes/battery_pack,
+/obj/machinery/power/smes,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "aJq" = (
@@ -32424,7 +32424,7 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "gqG" = (
 /obj/structure/cable,
-/obj/machinery/power/smes/battery_pack,
+/obj/machinery/power/smes,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/aft)
 "gqR" = (
