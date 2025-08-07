@@ -15879,6 +15879,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "brh" = (
@@ -30864,6 +30865,17 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/chem_storage)
+"fcI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/funeral)
 "fcK" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -33248,10 +33260,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/library/private)
-"gXs" = (
-/obj/effect/landmark/firealarm_sanity,
-/turf/open/floor/plating,
-/area/station/engineering/supermatter/room)
 "gXQ" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/electric_yellow{
@@ -42001,6 +42009,12 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/lounge)
+"obe" = (
+/obj/effect/landmark/firealarm_sanity,
+/turf/open/floor/engine{
+	name = "Holodeck Projector Floor"
+	},
+/area/station/holodeck/rec_center)
 "obj" = (
 /obj/machinery/light/small/directional/north,
 /obj/structure/cable,
@@ -42072,13 +42086,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
-"oew" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron/dark,
-/area/station/service/library/artgallery)
 "ofe" = (
 /turf/closed/wall/r_wall,
 /area/station/security/eva)
@@ -42580,10 +42587,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/cargo/drone_bay)
-"ovn" = (
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron,
-/area/station/security/brig)
 "ovv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -43504,6 +43507,7 @@
 /area/station/command/bridge)
 "peY" = (
 /obj/effect/turf_decal/trimline/pine_green/line,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -44108,6 +44112,10 @@
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"pAV" = (
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/station/security/brig)
 "pBg" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -48804,6 +48812,10 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/iron/terracotta/small,
 /area/station/service/kitchen)
+"sUj" = (
+/obj/effect/landmark/firealarm_sanity,
+/turf/open/floor/plating,
+/area/station/engineering/supermatter/room)
 "sUP" = (
 /obj/machinery/meter/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -54465,17 +54477,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/security/range)
-"wSD" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/structure/cable,
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/funeral)
 "wSP" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
@@ -56024,11 +56025,12 @@
 /turf/open/floor/plating,
 /area/station/service/hydroponics)
 "xQr" = (
-/obj/effect/landmark/firealarm_sanity,
-/turf/open/floor/engine{
-	name = "Holodeck Projector Floor"
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
 	},
-/area/station/holodeck/rec_center)
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/dark,
+/area/station/service/library/artgallery)
 "xQM" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/donkpockets,
@@ -69067,7 +69069,7 @@ chB
 slf
 oQn
 fdl
-wSD
+fcI
 slf
 slf
 slf
@@ -75232,7 +75234,7 @@ wCj
 roy
 pYc
 roy
-oew
+xQr
 vsJ
 vsJ
 vsJ
@@ -80526,7 +80528,7 @@ vao
 mJe
 pHh
 ark
-ovn
+pAV
 akA
 miF
 ayN
@@ -87806,7 +87808,7 @@ dOw
 nZX
 ccf
 vXW
-gXs
+sUj
 cbX
 tYU
 cfw
@@ -99803,7 +99805,7 @@ aur
 aur
 aur
 aur
-xQr
+obe
 aur
 aur
 aur
