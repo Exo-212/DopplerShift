@@ -10219,6 +10219,13 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/central/fore)
+"aRJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/chemistry)
 "aRK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -10327,6 +10334,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/cargo/office)
+"aSf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/chemistry)
 "aSj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
@@ -11953,6 +11966,12 @@
 /obj/machinery/chem_master/condimaster,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"aYV" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/chemistry)
 "aYX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
@@ -25231,6 +25250,10 @@
 "clA" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/medical/surgery,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/medical/chemistry)
 "clC" = (
@@ -27975,6 +27998,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal)
+"cNS" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/chemistry)
 "cOv" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
@@ -28654,6 +28681,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig)
+"dum" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/textured_large,
+/area/station/medical/chemistry)
 "duu" = (
 /obj/effect/landmark/start/hangover,
 /obj/structure/cable,
@@ -43654,6 +43685,13 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
+"prh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/station/medical/chemistry)
 "prD" = (
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/west,
@@ -46125,6 +46163,18 @@
 /obj/structure/flora/bush/large/style_random,
 /turf/open/floor/grass,
 /area/station/science/genetics)
+"rlM" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 8
+	},
+/area/station/medical/chemistry)
 "rlR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -48503,6 +48553,12 @@
 	},
 /turf/open/floor/wood,
 /area/station/science/lab)
+"sTu" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/chemistry)
 "sTy" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/chapel,
@@ -54239,6 +54295,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/treatment_center)
+"wUj" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/station/medical/chemistry)
 "wUz" = (
 /obj/structure/chair/stool/bar/directional/west,
 /obj/effect/mapping_helpers/burnt_floor,
@@ -54387,6 +54449,12 @@
 /obj/item/infuser_book,
 /turf/open/floor/iron/dark/small,
 /area/station/science/genetics)
+"xar" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/station/medical/chemistry)
 "xat" = (
 /obj/effect/landmark/atmospheric_sanity/ignore_area,
 /turf/open/floor/carpet,
@@ -84629,11 +84697,11 @@ peY
 nqp
 prD
 nIW
+sTu
 cmc
 cmc
-cmc
-cmc
-cmc
+aSf
+sTu
 ygx
 cBL
 eMp
@@ -84889,7 +84957,7 @@ cmc
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 eXa
 bNW
@@ -85146,7 +85214,7 @@ cmc
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 eXa
 bNW
@@ -85403,7 +85471,7 @@ cmc
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 lKn
 bNW
@@ -85660,7 +85728,7 @@ cmc
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 lKn
 bNW
@@ -85913,12 +85981,12 @@ bsL
 bFl
 qwJ
 dYf
-cmc
-lnn
-lnn
-lnn
-lnn
-lnn
+cNS
+wUj
+wUj
+wUj
+wUj
+xar
 bMN
 bNW
 eMp
@@ -86174,7 +86242,7 @@ cmc
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 bMN
 bNW
@@ -86431,7 +86499,7 @@ sAE
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 bMN
 bNW
@@ -86688,7 +86756,7 @@ bll
 lnn
 lnn
 lnn
-lnn
+wUj
 lnn
 bMN
 bNW
@@ -86942,10 +87010,10 @@ bCx
 byw
 qqr
 ink
-lnn
-lnn
-lnn
-lnn
+dum
+dum
+dum
+prh
 lnn
 bMN
 bNW
@@ -87199,11 +87267,11 @@ vTg
 fri
 bCp
 bll
+sTu
 cmc
 cmc
-cmc
-cmc
-cmc
+aRJ
+aYV
 bMN
 bNW
 eMp
@@ -87459,7 +87527,7 @@ eVG
 gVy
 udS
 mqg
-gVy
+rlM
 gVy
 bAi
 bNW
