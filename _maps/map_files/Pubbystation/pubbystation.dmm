@@ -26477,6 +26477,14 @@
 /area/station/engineering/atmos)
 "csl" = (
 /obj/machinery/smartfridge/organ,
+/obj/item/storage/box/petridish{
+	pixel_x = 8;
+	pixel_y = 18
+	},
+/obj/item/storage/box/swab{
+	pixel_x = -7;
+	pixel_y = 18
+	},
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "csn" = (
@@ -35282,6 +35290,9 @@
 /obj/item/crowbar,
 /obj/item/storage/box/bodybags,
 /obj/machinery/firealarm/directional/south,
+/obj/machinery/reagentgrinder{
+	pixel_y = 11
+	},
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "iMH" = (
@@ -39868,7 +39879,8 @@
 /area/station/hallway/primary/central/fore)
 "mvW" = (
 /obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/mannequin/skeleton,
+/obj/structure/table/reinforced,
+/obj/structure/microscope,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "mwc" = (
@@ -51308,6 +51320,12 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/structure/table/reinforced,
+/obj/item/biopsy_tool/organ{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/machinery/vatgrower/small,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "uOe" = (
