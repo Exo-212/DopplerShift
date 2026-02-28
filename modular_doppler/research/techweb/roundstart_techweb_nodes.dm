@@ -114,9 +114,6 @@
 /datum/techweb_node/mech_mining
 	starting_node = TRUE
 
-/datum/techweb_node/mech_heavy_arms
-	starting_node = TRUE
-
 /datum/techweb_node/chem_synthesis
 	starting_node = TRUE
 
